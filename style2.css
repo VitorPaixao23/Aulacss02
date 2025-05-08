@@ -1,0 +1,69 @@
+/* Cor de fundo da pagina inteira*/
+body{
+     background-color: rgba(44, 44, 46, 0.514);
+
+}
+/* centralizar */
+.centro{
+    text-align: center;
+}
+
+
+/* cor de Fundo e cor de texto do titulo */
+header{
+    text-align: center;
+    background-color: white;
+    color: rgb(0, 195, 255);
+/* tamanho, formato e comprimento da foto de inicio */
+}
+.foto img{
+        width: 250px;
+        height: 250px; 
+        border-radius: 50%; 
+        object-fit: cover;
+}  
+  /* altura e comprimento das demais imagens */
+.foto2 img{
+    width: 300px ;
+    height: 250px ;
+}
+/* Final da pagina, mudar nome e cor da letra e fundo */
+footer{
+    background-color: rgb(225, 225, 225);
+    color: rgb(15, 217, 253);
+    text-align: center;
+    
+
+}
+/* Criar seção, alterando cor da letra e tamanho da borda */
+section{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    flex: 1;
+    min-width: 250px;
+}
+/* criar 2 cards um do lado do outro */
+.container {
+    display: flex;
+    gap: 20px; /* Espaço entre os cards */
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card h3 {
+    margin-top: 0;
+  }
+
+  .card p {
+    color: #555;
+  }
